@@ -77,7 +77,7 @@ class PomodoroTimer {
     }
 
     playSound() {
-        const audio = new Audio('https://notificationsounds.com/soundfiles/9997/download/clock-alarm-9997.mp3');
+        const audio = new Audio('sound/alarm.mp3');
         audio.play();
     }
 }
